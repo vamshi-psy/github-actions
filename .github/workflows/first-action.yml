@@ -7,4 +7,4 @@ jobs:
       - name: Print greeting
         run: echo "build test successfull"
       - name: print good bye
-        run: echo "build successfull" 
+        run: echo "build successfull"
