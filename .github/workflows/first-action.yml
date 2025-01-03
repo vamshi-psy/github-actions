@@ -1,10 +1,10 @@
-name: First workflow
+name: Build application
 on: workflow_dispatch
 jobs: 
   first-job:
     runs on: ubuntu-latest
     steps:
       - name: Print greeting
-        run: echo "hello world"
+        run: echo "build test successfull"
       - name: print good bye
-        run: echo "hello world" 
+        run: echo "build successfull" 
